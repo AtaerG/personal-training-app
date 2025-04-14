@@ -1,5 +1,15 @@
 # PersonalTrainingApp
 
+I have decided to create my own super training app.
+
+Main functions are:
+1. Create new user.
+2. Enter with user.
+3. Schedule training
+
+And start to training😁
+
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.7.
 
 ## Development server
