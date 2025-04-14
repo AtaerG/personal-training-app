@@ -1,0 +1,22 @@
+<div class="container mt-5">
+    <h2>Добавить тренировку</h2>
+    <form>
+      <div class="mb-3">
+        <label for="workoutName" class="form-label">Название тренировки</label>
+        <input type="text" class="form-control" id="workoutName" placeholder="Введите название тренировки">
+      </div>
+      <div class="mb-3">
+        <label for="workoutType" class="form-label">Тип тренировки</label>
+        <select class="form-select" id="workoutType">
+          <option value="cardio">Кардио</option>
+          <option value="strength">Силовая</option>
+          <option value="flexibility">Гибкость</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="workoutTime" class="form-label">Продолжительность (в минутах)</label>
+        <input type="number" class="form-control" id="workoutTime" placeholder="Введите продолжительность">
+      </div>
+      <button type="submit" class="btn btn-primary">Добавить тренировку</button>
+    </form>
+  </div>
